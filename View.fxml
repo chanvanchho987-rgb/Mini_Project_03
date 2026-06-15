@@ -35,7 +35,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <ScrollPane fx:id="scrollpane" layoutX="21.0" layoutY="128.0" onDragDetected="#initialize" prefHeight="483.0" prefWidth="559.0">
+      <ScrollPane fx:id="scrollpane" layoutX="21.0" layoutY="128.0" prefHeight="483.0" prefWidth="559.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
         </content>
