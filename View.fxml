@@ -30,12 +30,12 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="430.0" layoutY="616.0" prefHeight="20.0" prefWidth="54.0" text="Total:">
+      <Label fx:id="label_total" layoutX="430.0" layoutY="616.0" prefHeight="20.0" prefWidth="54.0" text="Total:">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <ScrollPane layoutX="36.0" layoutY="143.0" prefHeight="463.0" prefWidth="532.0" />
-      <Button layoutX="256.0" layoutY="626.0" mnemonicParsing="false" onAction="#on_submit" prefHeight="37.0" prefWidth="54.0" text="Submit" />
+      <ScrollPane fx:id="scrollpane" layoutX="36.0" layoutY="143.0" prefHeight="463.0" prefWidth="532.0" />
+      <Button fx:id="button" layoutX="256.0" layoutY="626.0" mnemonicParsing="false" onAction="#on_submit" prefHeight="37.0" prefWidth="54.0" text="Submit" />
    </children>
 </AnchorPane>
