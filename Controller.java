@@ -2,13 +2,10 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.geometry.Pos;
-import javafx.scene.layout.VBox;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
-<<<<<<< Updated upstream
-import javafx.scene.image.ImageView;
-=======
->>>>>>> Stashed changes
+import javafx.scene.input.MouseEvent;
 
 public class Controller {
 
@@ -19,36 +16,29 @@ public class Controller {
     private URL location;
 
     @FXML
+    private Button button_submit;
+
+    @FXML
+    private Label label_total;
+
+    @FXML
+    private ScrollPane scrollpane;
+
+    @FXML
+    void initialize(MouseEvent event) {
+
+    }
+
+    @FXML
     void on_submit(ActionEvent event) {
 
     }
-    VBoxx vbox = new Vbox();
-
-<<<<<<< Updated upstream
-    VBox vbox = new VBox();
-
-    // HBox hbox_1 = new HBox();
-    // HBox hbox_2 = new HBox();
-    // HBox hbox_3 = new HBox();
-
-    // Label label_1 = new Label("Item 1");
-    // Label label_1_price = new Label("5.00$");
-    // ImageView image_1 = new ImageView("Arduino.jpg");
-    // Spinner<Integer> spinner_1 = new Spinner<>(0, 10, 0);
-
-    // Pos pos = Pos.CENTER;
 
     @FXML
     void initialize() {
-
-        // image_1.setFitWidth(100);
-        // 
-        
-
-    @FXML
-    void initialize() {
-        scrollpane.setContent(vbox);
->>>>>>> Stashed changes
+        assert button_submit != null : "fx:id=\"button_submit\" was not injected: check your FXML file 'View.fxml'.";
+        assert label_total != null : "fx:id=\"label_total\" was not injected: check your FXML file 'View.fxml'.";
+        assert scrollpane != null : "fx:id=\"scrollpane\" was not injected: check your FXML file 'View.fxml'.";
 
     }
 

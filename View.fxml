@@ -3,12 +3,9 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.Spinner?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
@@ -38,21 +35,11 @@
             <Font size="14.0" />
          </font>
       </Label>
-<<<<<<< HEAD
-      <ScrollPane fx:id="scrollpane" layoutX="36.0" layoutY="143.0" prefHeight="463.0" prefWidth="532.0" />
-      <Button fx:id="button" layoutX="256.0" layoutY="626.0" mnemonicParsing="false" onAction="#on_submit" prefHeight="37.0" prefWidth="54.0" text="Submit" />
-=======
-      <ScrollPane layoutX="36.0" layoutY="143.0" prefHeight="296.0" prefWidth="532.0">
-         <content>
-            <Spinner />
-         </content></ScrollPane>
-      <Button layoutX="256.0" layoutY="626.0" mnemonicParsing="false" onAction="#on_submit" prefHeight="37.0" prefWidth="54.0" text="Submit" />
-      <VBox layoutX="36.0" layoutY="454.0" prefHeight="200.0" prefWidth="100.0">
-         <children>
-            <HBox prefHeight="100.0" prefWidth="200.0" />
-            <HBox prefHeight="100.0" prefWidth="200.0" />
-         </children>
-      </VBox>
->>>>>>> 2002399f2410d05467f43e2875cfde4effc5c4f4
+      <ScrollPane fx:id="scrollpane" layoutX="21.0" layoutY="128.0" onDragDetected="#initialize" prefHeight="483.0" prefWidth="559.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <Button fx:id="button_submit" layoutX="249.0" layoutY="614.0" mnemonicParsing="false" onAction="#on_submit" text="Submit" />
    </children>
 </AnchorPane>
