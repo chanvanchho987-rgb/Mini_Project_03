@@ -4,11 +4,11 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
 import javafx.scene.layout.VBox;
-import javafx.scene.layout.HBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.Spinner;
 import javafx.scene.control.ScrollPane;
+<<<<<<< Updated upstream
 import javafx.scene.image.ImageView;
+=======
+>>>>>>> Stashed changes
 
 public class Controller {
 
@@ -19,13 +19,12 @@ public class Controller {
     private URL location;
 
     @FXML
-    private ScrollPane scrollPane;
-
-    @FXML
     void on_submit(ActionEvent event) {
 
     }
+    VBoxx vbox = new Vbox();
 
+<<<<<<< Updated upstream
     VBox vbox = new VBox();
 
     // HBox hbox_1 = new HBox();
@@ -50,8 +49,13 @@ public class Controller {
         // hbox_1.setAlignment(pos);
 
         // vbox.getChildren().addAll(hbox_1);
+=======
 
-        scrollPane.setContent(vbox);
+    @FXML
+    void initialize() {
+        scrollpane.setContent(vbox);
+>>>>>>> Stashed changes
+
     }
 
 }
