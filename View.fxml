@@ -6,8 +6,6 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 
@@ -23,7 +21,7 @@
             <Image url="@asset/Logo-GTR-PNG.png" />
          </image>
       </ImageView>
-      <Label layoutX="222.0" layoutY="39.0" prefHeight="30.0" prefWidth="147.0" text="Mini-Project03">
+      <Label layoutX="222.0" layoutY="35.0" prefHeight="30.0" prefWidth="147.0" text="Mini-Project03">
          <font>
             <Font size="20.0" />
          </font>
@@ -38,13 +36,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <ScrollPane layoutX="112.0" layoutY="107.0" prefHeight="251.0" prefWidth="367.0" />
-      <Button layoutX="256.0" layoutY="597.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="54.0" text="Submit" />
-      <VBox layoutX="62.0" layoutY="383.0" prefHeight="200.0" prefWidth="100.0">
-         <children>
-            <HBox prefHeight="100.0" prefWidth="200.0" />
-            <HBox prefHeight="100.0" prefWidth="200.0" />
-         </children>
-      </VBox>
+      <ScrollPane layoutX="36.0" layoutY="143.0" prefHeight="463.0" prefWidth="532.0" />
+      <Button layoutX="256.0" layoutY="626.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="54.0" text="Submit" />
    </children>
 </AnchorPane>
