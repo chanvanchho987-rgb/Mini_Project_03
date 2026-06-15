@@ -42,14 +42,8 @@ public class Controller {
     void initialize() {
 
         // image_1.setFitWidth(100);
-        // image_1.setFitHeight(100);
-
-        // hbox_1.getChildren().addAll(image_1, label_1, label_1_price, spinner_1);
-
-        // hbox_1.setAlignment(pos);
-
-        // vbox.getChildren().addAll(hbox_1);
-=======
+        // 
+        
 
     @FXML
     void initialize() {
