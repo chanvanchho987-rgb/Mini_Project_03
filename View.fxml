@@ -8,38 +8,41 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="862.0" prefWidth="1016.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ImageView fitHeight="104.0" fitWidth="108.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <Button layoutX="450.0" layoutY="742.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="119.0" text="Submit">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <ImageView fitHeight="139.0" fitWidth="142.0" layoutX="20.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/Logo-ITC-PNG.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="104.0" fitWidth="114.0" layoutX="472.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="139.0" fitWidth="142.0" layoutX="856.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/Logo-GTR-PNG.png" />
          </image>
       </ImageView>
-      <Label layoutX="222.0" layoutY="35.0" prefHeight="30.0" prefWidth="147.0" text="Mini-Project03">
+      <Label layoutX="321.0" layoutY="14.0" prefHeight="80.0" prefWidth="377.0" text="Mini Project_03">
          <font>
-            <Font size="20.0" />
+            <Font size="54.0" />
          </font>
       </Label>
-      <Label layoutX="229.0" layoutY="69.0" prefHeight="26.0" prefWidth="108.0" text="Shopping List">
+      <Label layoutX="355.0" layoutY="75.0" prefHeight="80.0" prefWidth="308.0" text="Microcontroller Shop">
          <font>
-            <Font size="16.0" />
+            <Font size="32.0" />
          </font>
       </Label>
-      <Label fx:id="label_total" layoutX="430.0" layoutY="616.0" prefHeight="20.0" prefWidth="54.0" text="Total:">
+      <Label fx:id="total" layoutX="677.0" layoutY="742.0" prefHeight="48.0" prefWidth="257.0" text="Total:">
          <font>
-            <Font size="14.0" />
+            <Font size="25.0" />
          </font>
       </Label>
-      <ScrollPane fx:id="scrollpane" layoutX="21.0" layoutY="128.0" prefHeight="483.0" prefWidth="559.0">
+      <ScrollPane fx:id="scrollpane" layoutX="19.0" layoutY="172.0" prefHeight="539.0" prefWidth="981.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
         </content>
       </ScrollPane>
-      <Button fx:id="button_submit" layoutX="249.0" layoutY="614.0" mnemonicParsing="false" onAction="#on_submit" text="Submit" />
    </children>
 </AnchorPane>

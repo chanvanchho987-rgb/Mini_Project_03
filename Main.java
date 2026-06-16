@@ -3,6 +3,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+i
 
 public class Main extends Application {
     public static void main(String[] args) {
@@ -12,9 +13,9 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         //
-        FXMLLoader loader = new FXMLLoader();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("View.fxml"));
         //
-        Parent root = loader.load(getClass().getResource("View.fxml"));
+        Parent root = loader.load();
         //
         Scene scene = new Scene(root);
         //
