@@ -37,11 +37,11 @@ public class Controller {
     VBox vbox = new VBox();
 
     Object[][] items = {
-            { "Arduino Uno", 10.0, "ESP32.jpg" },
-            // { "ESP32", 20.0, "ESP32.jpg" },
-            // { "Rasberry Pi", 30.0, "Rasberry Pi.jpg" },
-            // { "Srey Sart", 40.0, "Srey Sart.jpg" },
-            // { "STM3F2103", 50.0, "STM32F103.jpg" }
+            { "Arduino Uno", 10, "Arduino Uno.jpg" },
+            { "ESP32", 20, "ESP32.jpg" },
+            { "Rasberry Pi", 30, "Rasberry Pi.jpg" },
+            { "Srey Sart", 40, "Srey Sart.jpg" },
+            { "STM3F2103", 50, "STM32F103.jpg" }
     };
 
     ArrayList<HBox> hboxes = new ArrayList<>();
