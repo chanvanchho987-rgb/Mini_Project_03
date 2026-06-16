@@ -26,22 +26,22 @@ public class Controller {
 
     @FXML
     void on_submit(ActionEvent event) {
-        int total = 0;
+        int Total = 0;
         for (int i = 0; i < spinners.size(); i++) {
-            total += spinners.get(i).getValue() * (int) items[i][1];
+            Total += spinners.get(i).getValue() * (int) items[i][1];
         }
-        this.total.setText("Total: " + total + " $");
+        total.setText("Total: " + Total + " $");
     }
 
     // ====================================================================================================================
     VBox vbox = new VBox();
 
     Object[][] items = {
-            { "Arduino Uno", 10, "Arduino Uno.jpg" },
-            { "ESP32", 20, "ESP32.jpg" },
-            { "Rasberry Pi", 30, "Rasberry Pi.jpg" },
-            { "Srey Sart", 40, "Srey Sart.jpg" },
-            { "STM3F2103", 50, "STM32F103.jpg" }
+            { "Arduino Uno", 10, "Accesaries/Arduino Uno.jpg" },
+            { "ESP32", 20, "Accesaries/ESP32.jpg" },
+            { "Rasberry Pi", 30, "Accesaries/Rasberry Pi.jpg" },
+            { "Srey Sart", 40, "Accesaries/Srey Sart.jpg" },
+            { "STM3F2103", 50, "Accesaries/STM32F103.jpg" }
     };
 
     ArrayList<HBox> hboxes = new ArrayList<>();
