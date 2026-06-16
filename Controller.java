@@ -55,7 +55,6 @@ public class Controller {
     @FXML
     void initialize() {
 
-        vbox.setSpacing(items.length * 10);
 
         for (int i = 0; i < items.length; i++) {
             hboxes.add(new HBox());
@@ -70,8 +69,6 @@ public class Controller {
                     label_prices.get(i),
                     images.get(i),
                     spinners.get(i));
-
-            vbox.getChildren().add(hboxes.get(i));
         }
 
         scrollpane.setContent(vbox);

@@ -38,7 +38,12 @@
          <font>
             <Font size="25.0" />
          </font>
-      </Label>
+         </Label>
+         <Label fx:id="label_total" layoutX="430.0" layoutY="616.0" prefHeight="20.0" prefWidth="120.0" text="Total:">
+            <font>
+               <Font size="14.0" />
+            </font>
+          </Label>
       <ScrollPane fx:id="scrollpane" layoutX="19.0" layoutY="172.0" prefHeight="539.0" prefWidth="981.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
