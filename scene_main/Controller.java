@@ -63,6 +63,10 @@ public class Controller {
             label_names.add(new Label(i + "." + items[i][0].toString() + " "));
             label_prices.add(new Label(items[i][1].toString() + " $"));
             images.add(new ImageView(items[i][2].toString()));
+//Add size for image
+            images.get(i).setFitWidth(100);
+            images.get(i).setFitHeight(100);
+
             spinners.add(new Spinner<>(0, 100, 0));
 
             hboxes.get(i).getChildren().addAll(
