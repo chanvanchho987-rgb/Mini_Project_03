@@ -8,38 +8,41 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="726.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="862.0" prefWidth="1016.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="444.0" layoutY="104.0" text="Microcontroller Shop">
+      <Button layoutX="450.0" layoutY="742.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="119.0" text="Submit">
          <font>
-            <Font size="19.0" />
-         </font>
-      </Label>
-      <Label fx:id="label_total" layoutX="748.0" layoutY="613.0" prefHeight="22.0" prefWidth="199.0" text="Total:">
-         <font>
-            <Font size="25.0" />
-         </font>
-      </Label>
-      <Label layoutX="419.0" layoutY="39.0" text="Mini Project 3">
-         <font>
-            <Font size="38.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="99.0" fitWidth="101.0" layoutX="14.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+            <Font size="24.0" />
+         </font></Button>
+      <ImageView fitHeight="139.0" fitWidth="142.0" layoutX="20.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/Logo-ITC-PNG.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="88.0" fitWidth="125.0" layoutX="903.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="139.0" fitWidth="142.0" layoutX="856.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@asset/Logo-GTR-PNG.png" />
          </image>
       </ImageView>
-      <Button layoutX="216.0" layoutY="605.0" mnemonicParsing="false" onAction="#on_submit" text="Submit">
+      <Label layoutX="321.0" layoutY="14.0" prefHeight="80.0" prefWidth="377.0" text="Mini Project_03">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="75.0" prefHeight="80.0" prefWidth="308.0" text="Microcontroller Shop">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="total" layoutX="677.0" layoutY="742.0" prefHeight="48.0" prefWidth="257.0" text="Total:">
          <font>
             <Font size="25.0" />
          </font>
-      </Button>
-      <ScrollPane fx:id="scrollpane" layoutX="19.0" layoutY="150.0" prefHeight="447.0" prefWidth="963.0" />
+      </Label>
+      <ScrollPane fx:id="scrollpane" layoutX="19.0" layoutY="172.0" prefHeight="539.0" prefWidth="981.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
    </children>
 </AnchorPane>
