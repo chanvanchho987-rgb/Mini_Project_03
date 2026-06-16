@@ -1,7 +1,6 @@
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -69,6 +68,8 @@ public class Controller {
                     label_prices.get(i),
                     images.get(i),
                     spinners.get(i));
+
+            vbox.getChildren().add(hboxes.get(i));
         }
 
         scrollpane.setContent(vbox);
